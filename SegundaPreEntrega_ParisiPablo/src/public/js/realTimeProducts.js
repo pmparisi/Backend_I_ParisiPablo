@@ -3,19 +3,14 @@ const socket = io();
 document.addEventListener('DOMContentLoaded', () => {
     const productList = document.getElementById("productList");
     productList.innerHTML = '';
+    
     socket.emit('getProducts');
+    
     socket.on('response', (products) => {
+        productList.innerHTML = '';
         products.forEach(product => {
             displayProduct(product);
         });
-    });
-});
-
-socket.on('response', (products) => {
-    const productList  = document.getElementById("productList");
-    productList.innerHTML = '';
-    products.forEach(product => {
-        displayProduct(product);
     });
 });
 
@@ -29,13 +24,19 @@ buttonAdd.addEventListener("click", (event) => {
     const stock = parseInt(document.getElementById("stock").value.trim());
     const category = document.getElementById("category").value.trim();
 
-    if (!title || !description || !code || !category) {
-        alert("All fields must be filled out.");
+
+    if (isNaN(price) || price <= 0) {
+        alert("Price must be positive numbers.");
         return;
     }
 
-    if (isNaN(price) || isNaN(stock) || price <= 0 || stock <= 0) {
-        alert("Price and stock must be positive numbers.");
+    if (isNaN(stock) || stock <= 0) {
+        alert("Stock must be positive numbers.");
+        return;
+    }
+    
+    if (!title || !description || !code || !category || !price || !stock) {
+        alert("All fields must be filled out.");
         return;
     }
 
@@ -108,7 +109,6 @@ productList.addEventListener("click", (event) => {
         });
     }
 });
-
 
 function clearForm() {
     document.getElementById("productForm").reset();
