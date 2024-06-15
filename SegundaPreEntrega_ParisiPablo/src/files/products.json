@@ -1,0 +1,112 @@
+[
+	{
+		"title": "Wireless Mouse",
+		"description": "Optical wireless mouse with 1600 DPI and rechargeable battery.",
+		"code": "ACC001",
+		"price": 25.99,
+		"status": true,
+		"stock": 120,
+		"category": "Peripherals",
+		"thumbnails": [],
+		"id": 1
+	},
+	{
+		"title": "Mechanical RGB Keyboard",
+		"description": "Mechanical keyboard with RGB lighting and Cherry MX Red switches.",
+		"code": "ACC002",
+		"price": 79.99,
+		"status": true,
+		"stock": 75,
+		"category": "Peripherals",
+		"thumbnails": [],
+		"id": 2
+	},
+	{
+		"title": "1080p Webcam",
+		"description": "Webcam with Full HD 1080p resolution and built-in microphone.",
+		"code": "ACC003",
+		"price": 45,
+		"status": true,
+		"stock": 50,
+		"category": "Peripherals",
+		"thumbnails": [],
+		"id": 3
+	},
+	{
+		"title": "1TB External Hard Drive",
+		"description": "Portable external hard drive with 1TB capacity and USB 3.0 connection.",
+		"code": "ACC004",
+		"price": 59.99,
+		"status": true,
+		"stock": 200,
+		"category": "Storage",
+		"thumbnails": [],
+		"id": 4
+	},
+	{
+		"title": "24\" LED Monitor",
+		"description": "24-inch LED monitor with Full HD resolution and IPS technology.",
+		"code": "ACC005",
+		"price": 149.99,
+		"status": true,
+		"stock": 30,
+		"category": "Monitors",
+		"thumbnails": [],
+		"id": 5
+	},
+	{
+		"title": "Gaming Headset",
+		"description": "Gaming headset with 7.1 surround sound and adjustable microphone.",
+		"code": "ACC006",
+		"price": 69.99,
+		"status": true,
+		"stock": 90,
+		"category": "Peripherals",
+		"thumbnails": [],
+		"id": 6
+	},
+	{
+		"title": "Multifunction Printer",
+		"description": "Wireless multifunction printer with scanner and copier.",
+		"code": "ACC007",
+		"price": 99.99,
+		"status": true,
+		"stock": 40,
+		"category": "Printers",
+		"thumbnails": [],
+		"id": 7
+	},
+	{
+		"title": "UPS",
+		"description": "1000VA UPS for power protection and backup during outages.",
+		"code": "ACC008",
+		"price": 129.99,
+		"status": true,
+		"stock": 15,
+		"category": "Power",
+		"thumbnails": [],
+		"id": 8
+	},
+	{
+		"title": "WiFi Network Card",
+		"description": "PCIe network card with WiFi 6 and Bluetooth 5.0.",
+		"code": "ACC009",
+		"price": 39.99,
+		"status": true,
+		"stock": 110,
+		"category": "Connectivity",
+		"thumbnails": [],
+		"id": 9
+	},
+	{
+		"title": "Laptop Cooling Pad",
+		"description": "Cooling pad with adjustable fans and additional USB ports.",
+		"code": "ACC010",
+		"price": 29.99,
+		"status": true,
+		"stock": 65,
+		"category": "Laptop Accessories",
+		"thumbnails": [],
+		"id": 10
+	}
+]
