@@ -1,0 +1,23 @@
+{
+  "name": "primerpreentrega_parisipablo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^8.4.4",
+    "mongoose-paginate-v2": "^1.8.2",
+    "socket.io": "^4.7.5",
+    "sweetalert2": "^11.11.1"
+  }
+}

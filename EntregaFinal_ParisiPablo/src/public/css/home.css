@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff; 
+    text-align: center;
+    position: relative;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productCard {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 280px; 
+    height: 300px;
+}
+
+.productCard h3 {
+    color: #007BFF;
+}
+
+.productCard h4 {
+    color: #ccc;
+}
+
+.productCard p {
+    color: #bbb;
+    font-weight: bolder;
+}
+
+.pageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.pageContainer {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-areas: "prev text next";
+    grid-gap: 10px;
+    align-items: center;
+    width: 500px;
+}
+
+.pageContainer a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.aPagePrev {
+    grid-area: prev;
+    width: 150px;
+    background: #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+}
+
+.aPageNext {
+    grid-area: next;
+    width: 150px;
+    background: #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+}
+
+.aPagePrev a, .aPageNext a {
+    color: #FFFFFF;
+}
+
+.aPagePrev a:visited, .aPageNext a:visited {
+    color: #FFFFFF;
+}
+
+.textPage {
+    grid-area: text;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+}

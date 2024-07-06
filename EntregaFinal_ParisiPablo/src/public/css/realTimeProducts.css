@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+}
+
+form button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 0;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#productList {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 20px auto;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productCard {
+    background: rgb(200, 200, 200);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 280px;
+    height: 300px;
+}
+
+.productCard h3 {
+    color: #007BFF;
+}
+
+.productCard h4 {
+    color: rgb(80, 80, 80);
+}
+
+.productCard p {
+    color: rgb(50, 50, 50);
+    font-weight: bolder;
+}
+
+.deleteButton {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.deleteButton:hover {
+    background: #0056b3;
+}
+
+::placeholder {
+    color: rgba(200, 200, 200); 
+}
+
+.swal2Custom {
+    box-shadow: 0 0 10px rgba(255, 255, 255);
+    width: 300px;
+}
+
+.swal2TitleCustom {
+    color: white;
+}
